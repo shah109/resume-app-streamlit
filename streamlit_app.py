@@ -11,7 +11,7 @@ st.write('''
 ##### *Resume* 
 ''')
 
-image = Image.open('dp.png')
+image = Image.open('shahahmad.png')
 st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
@@ -41,16 +41,19 @@ st.markdown("""
         <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#key-skills">Key Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#tools-worked-on">Tools worked on</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#work-experience">Work Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#bioinformatics-tools">Bioinformatics Tools</a>
+        <a class="nav-link" href="#social-media">Social Media</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#social-media">Social Media</a>
+        <a class="nav-link" href="#education">Education</a>
       </li>
     </ul>
   </div>
@@ -102,6 +105,27 @@ txt3('Frameworks for Model deployment', '`LangChain`,`Hugging Face`,`streamlit`'
 txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
 txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`')
 
+#####################
+st.markdown('''
+## Tools Worked on
+''')
+txt4('MultiPdf Chat', 'A web server that allows you to chat with multiple PDF documents', 'https://shah109-ask-multiple-pdfs.streamlit.app/')
+txt4('Mortgage Application', 'Calculates monthly re-payments, total re-payments, total interest and principle balance for a mortgage ', 'https://shah109-mortgage-app.streamlit.app/')
+# txt4('ACPred', 'A computational tool for the prediction and analysis of anticancer peptides','http://codes.bio/acpred/')
+# txt4('BioCurator', 'A web server for curating ChEMBL bioactivity data', 'http://codes.bio/biocurator/')
+# txt4('CryoProtect', 'A web server for classifying antifreeze proteins from non-antifreeze proteins','http://codes.bio/cryoprotect/')
+# txt4('ERpred', 'A web server for the prediction of subtype-specific estrogen receptor antagonists', 'http://codes.bio/erpred')
+# txt4('HCVpred', 'A web server for predicting the bioactivity of Hepatitis C virus NS5B inhibitors', 'http://codes.bio/hemopred/')
+# txt4('HemoPred', 'A web server for predicting the hemolytic activity of peptides', 'http://codes.bio/hemopred/')
+# txt4('iQSP', 'A sequence-based tool for the prediction and analysis of quorum sensing peptides', 'http://codes.bio/iqsp/')
+# txt4('Meta-iAVP', 'A sequence-based meta-predictor for improving the prediction of antiviral peptides', 'http://codes.bio/meta-iavp/')
+# txt4('osFP', 'A web server for predicting the oligomeric state of fluorescent proteins', 'http://codes.bio/osfp/')
+# txt4('PAAP', 'A web server for predicting antihypertensive activity of peptides', 'http://codes.bio/paap/')
+# txt4('PepBio', 'A web server for predicting the bioactivity of host defense peptide', 'http://codes.bio/pepbio')
+# txt4('PyBact', 'Open source software written in Python for bacterial identification', 'https://sourceforge.net/projects/pybact/')
+# txt4('TargetAntiAngio', 'A sequence-based tool for the prediction and analysis of anti-angiogenic peptides','http://codes.bio/targetantiangio/')
+# txt4('ThalPred', 'Development of decision model for discriminating Thalassemia trait and Iron deficiency anemia','http://codes.bio/thalpred/')
+# txt4('THPep', 'A web server for predicting tumor homing peptides','http://codes.bio/thpep/')
 
 #####################
 st.markdown('''
@@ -113,11 +137,11 @@ st.markdown('''
 - Focused on advancing expertise in Artificial Intelligence, specializing in deep learning and neural networks.
 - Independently developed and implemented several AI projects and applications, demonstrating practical skills and creativity. Frameworks and libraries used are OpenAI API, LangChain, Hugging Face, Numpy, Pandas, Matplotlib. All work is done in Python, VSCode, Google Colab and Git/GitHub.  
 - Kept pace with industry trends, attending workshops, and staying connected with the ever-evolving AI community.
--	Looking forward to adding a splash of AI excitement to my career journey.
+-	Looking forward to adding a splash of excitement to my career journey with Artificial Intelligence.
 ''')
 
 txt('**Senior Software Engineer/ Architect, Medical Systems Group**, Olympus Corporation, Center Valley, Pennsylvania',
-'2008-2020')
+'2008-2021')
 st.markdown('''
 - Responsible for design and development activities for Olympus UE, a web-based health-care workflow and asset management system at hospitals. Project life cycle is managed via an agile environment using MS Team Foundation Server. This system is a large endeavor towards managing the business processes and safety around Olympus assets in hospital environments. 
 - Further details of the platform are available at:
@@ -137,57 +161,30 @@ st.markdown('''
 - **Environment:** VBA, VBScript, c#, QA Center, QA Run, Visual Studio 2003/2005, MS Test, ADO.NET, ASP.NET, NetInstall.
 ''')
 
-txt('**Co-Chair**, International Conference on Pharmaceutical Bioinformatics at Pattaya, Thailand',
-'2016')
-st.markdown('''
-- Oversee all aspects of the conference preparations from conception to launch. This include inviting keynote and plenary speakers, create advertisement flyers, create abstract book, etc.
-- Conference attracted `200+` participants from `40+` countries from university and industry sector.
-- Chaired keynote session, technical workshop and some of the parallel sessions.
-''')
 
-txt('**Content Creator**, [Data Professor YouTube Channel](https://youtube.com/dataprofessor/)',
-'2019-Present')
-st.markdown('''
-- `100,000+` subscribers on YouTube
-- Created `261` educational videos on data science, machine learning and bioinformatics as well as hosted several podcast episodes with data scientists.
-- Created `3` sponsored videos for Notion, Gradio and Classpert.
-''')
+# txt('**Content Creator**, [Data Professor YouTube Channel](https://youtube.com/dataprofessor/)',
+# '2019-Present')
+# st.markdown('''
+# - `100,000+` subscribers on YouTube
+# - Created `261` educational videos on data science, machine learning and bioinformatics as well as hosted several podcast episodes with data scientists.
+# - Created `3` sponsored videos for Notion, Gradio and Classpert.
+# ''')
 
-txt('**Content Creator**, [Coding Professor YouTube Channel](https://youtube.com/codingprofessor/)',
-'2019-Present')
-st.markdown('''
-- `3,200+` subscribers on YouTube
-- Created `38` educational videos on Python and R programming.
-''')
+# txt('**Content Creator**, [Coding Professor YouTube Channel](https://youtube.com/codingprofessor/)',
+# '2019-Present')
+# st.markdown('''
+# - `3,200+` subscribers on YouTube
+# - Created `38` educational videos on Python and R programming.
+# ''')
 
-txt('**Technical Writer**, [Data Professor Blog](https://data-professor.medium.com/) on Medium.com',
-'2019-Present')
-st.markdown('''
-- `4,100+` subscribers on Medium
-- Written `68` technical blogs on data science, machine learning and bioinformatics.
-''')
+# txt('**Technical Writer**, [Data Professor Blog](https://data-professor.medium.com/) on Medium.com',
+# '2019-Present')
+# st.markdown('''
+# - `4,100+` subscribers on Medium
+# - Written `68` technical blogs on data science, machine learning and bioinformatics.
+# ''')
 
-#####################
-st.markdown('''
-## Bioinformatics Tools
-''')
-txt4('ABCpred', 'A web server for the discovery of acetyl- and butyryl-cholinesterase inhibitors', 'http://codes.bio/abcpred/')
-txt4('AutoWeka', 'An automated data mining software based on Weka', 'http://www.mt.mahidol.ac.th/autoweka/')
-txt4('ACPred', 'A computational tool for the prediction and analysis of anticancer peptides','http://codes.bio/acpred/')
-txt4('BioCurator', 'A web server for curating ChEMBL bioactivity data', 'http://codes.bio/biocurator/')
-txt4('CryoProtect', 'A web server for classifying antifreeze proteins from non-antifreeze proteins','http://codes.bio/cryoprotect/')
-txt4('ERpred', 'A web server for the prediction of subtype-specific estrogen receptor antagonists', 'http://codes.bio/erpred')
-txt4('HCVpred', 'A web server for predicting the bioactivity of Hepatitis C virus NS5B inhibitors', 'http://codes.bio/hemopred/')
-txt4('HemoPred', 'A web server for predicting the hemolytic activity of peptides', 'http://codes.bio/hemopred/')
-txt4('iQSP', 'A sequence-based tool for the prediction and analysis of quorum sensing peptides', 'http://codes.bio/iqsp/')
-txt4('Meta-iAVP', 'A sequence-based meta-predictor for improving the prediction of antiviral peptides', 'http://codes.bio/meta-iavp/')
-txt4('osFP', 'A web server for predicting the oligomeric state of fluorescent proteins', 'http://codes.bio/osfp/')
-txt4('PAAP', 'A web server for predicting antihypertensive activity of peptides', 'http://codes.bio/paap/')
-txt4('PepBio', 'A web server for predicting the bioactivity of host defense peptide', 'http://codes.bio/pepbio')
-txt4('PyBact', 'Open source software written in Python for bacterial identification', 'https://sourceforge.net/projects/pybact/')
-txt4('TargetAntiAngio', 'A sequence-based tool for the prediction and analysis of anti-angiogenic peptides','http://codes.bio/targetantiangio/')
-txt4('ThalPred', 'Development of decision model for discriminating Thalassemia trait and Iron deficiency anemia','http://codes.bio/thalpred/')
-txt4('THPep', 'A web server for predicting tumor homing peptides','http://codes.bio/thpep/')
+
 
 
 #####################
@@ -197,13 +194,13 @@ st.markdown('''
 txt2('LinkedIn', 'https://www.linkedin.com/in/chanin-nantasenamat')
 txt2('Twitter', 'https://twitter.com/thedataprof')
 txt2('GitHub', 'https://github.com/chaninn/')
-txt2('', 'https://github.com/chaninlab/')
-txt2('', 'https://github.com/dataprofessor')
-txt2('ORCID', 'http://orcid.org/0000-0003-1040-663X')
-txt2('Scopus', 'http://www.scopus.com/authid/detail.url?authorId=12039071300')
-txt2('ResearcherID', 'http://www.researcherid.com/rid/F-1021-2010')
-txt2('ResearchGate', 'https://www.researchgate.net/profile/Chanin_Nantasenamat')
-txt2('Publons', 'https://publons.com/a/303133/')
+#txt2('', 'https://github.com/chaninlab/')
+#txt2('', 'https://github.com/dataprofessor')
+#txt2('ORCID', 'http://orcid.org/0000-0003-1040-663X')
+#txt2('Scopus', 'http://www.scopus.com/authid/detail.url?authorId=12039071300')
+#txt2('ResearcherID', 'http://www.researcherid.com/rid/F-1021-2010')
+#txt2('ResearchGate', 'https://www.researchgate.net/profile/Chanin_Nantasenamat')
+#txt2('Publons', 'https://publons.com/a/303133/')
 
 #####################
 st.markdown('''
@@ -220,4 +217,18 @@ txt('**Masters in Systems Engineering**, *Quaid-e-Azam University*, Pakistan',
 st.markdown('''
 - Graduated with First Division.
 ''')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
