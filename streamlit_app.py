@@ -11,7 +11,7 @@ st.write('''
 ##### *Resume* 
 ''')
 
-image = Image.open('shahahmad.png')
+image = Image.open('ShahAhmad.png')
 st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
