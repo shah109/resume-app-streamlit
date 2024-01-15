@@ -191,7 +191,7 @@ st.markdown('''
 st.markdown('''
 ## Social Media
 ''')
-txt2('LinkedIn', 'https://www.linkedin.com/in/chanin-nantasenamat')
+txt2('LinkedIn', 'https://www.linkedin.com/in/shah109')
 txt2('Twitter', 'https://twitter.com/thedataprof')
 txt2('GitHub', 'https://github.com/chaninn/')
 #txt2('', 'https://github.com/chaninlab/')
