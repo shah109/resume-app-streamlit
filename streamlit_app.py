@@ -193,7 +193,7 @@ st.markdown('''
 ''')
 txt2('LinkedIn', 'https://www.linkedin.com/in/shah109')
 txt2('Twitter', 'https://twitter.com/thedataprof')
-txt2('GitHub', 'https://github.com/chaninn/')
+txt2('GitHub', 'https://github.com/shah109/')
 #txt2('', 'https://github.com/chaninlab/')
 #txt2('', 'https://github.com/dataprofessor')
 #txt2('ORCID', 'http://orcid.org/0000-0003-1040-663X')
