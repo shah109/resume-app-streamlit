@@ -16,12 +16,12 @@ st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-- Experienced Application Developer and Architect with twenty years plus of experience in Health Care applications architecture, design and development. 
-- Deep background and interest in AI Technologies such as Neural Networks. Strong knowledge of frameworks like Pytorch, Langchain and Data Science libraries.
+- Experienced Application Developer and Architect with twenty years plus of experience in healthcare applications architecture, design, and development. 
+- Deep background and interest in AI Technologies such as Neural Networks. Strong knowledge of frameworks like Pytorch, Langchain, and Data Science libraries.
 - Worked on several prototype multimodal AI projects using AI models. 
 - In-depth experience in agile methodologies and software quality management.
-- Analytical mind with passion for building quality within code.
-- Strong verbal and written communication skills with ability to lead by example and establish trust among teams.
+- Analytical mind with a passion for building quality within code.
+- Strong verbal and written communication skills with the ability to lead by example and establish trust among teams.
 ''')
 
 #####################
@@ -109,6 +109,7 @@ st.markdown('''
 ## Tools Worked on
 ''')
 txt4('MultiPdf Chat', 'A web server that allows you to chat with multiple PDF documents', 'https://shah109-ask-multiple-pdfs.streamlit.app/')
+txt4('Chat with Websites', 'A web server that allows you to chat with websites', 'https://chat-with-websites-shah.streamlit.app/')
 txt4('Mortgage Application', 'Calculates monthly re-payments, total re-payments, total interest and principle balance for a mortgage ', 'https://shah109-mortgage-app.streamlit.app/')
 # txt4('ACPred', 'A computational tool for the prediction and analysis of anticancer peptides','http://codes.bio/acpred/')
 # txt4('BioCurator', 'A web server for curating ChEMBL bioactivity data', 'http://codes.bio/biocurator/')
